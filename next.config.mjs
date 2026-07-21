@@ -3,7 +3,7 @@ import { fileURLToPath } from "node:url";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  output: "export",
   reactCompiler: true,
   turbopack: {
     // Prevent lockfiles outside this app from changing the inferred root.
